@@ -1,0 +1,16 @@
+#get input from the user about values
+puts "what is x1?"
+a=gets.to_f
+puts "what is x2?"
+b=gets.to_f
+puts "what is y1?"
+c=gets.to_f
+puts "what is y2?"
+d=gets.to_f
+#calculate slope
+rise= c+d
+run= a+b
+slope= rise/run
+#display to user
+puts "The slope is:"
+puts slope
